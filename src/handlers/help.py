@@ -1,5 +1,5 @@
 from aiogram.types import CallbackQuery
-from keyboards import create_main_keyboard
+from keyboard import create_main_keyboard
 
 async def show_help(callback_query: CallbackQuery):
     await callback_query.message.edit_text(

@@ -1,5 +1,5 @@
 from aiogram.types import CallbackQuery
-from catalog import catalog
+from catalog import catalog_of_courses as catalog
 from .items import show_item
 
 async def navigate_items(callback_query: CallbackQuery):

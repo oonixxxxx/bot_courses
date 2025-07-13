@@ -1,6 +1,6 @@
 from aiogram.types import CallbackQuery
-from catalog import catalog, current_category
-from keyboards import create_items_keyboard
+from catalog import catalog_of_courses as catalog, current_category
+from keyboard import create_items_keyboard
 
 async def show_item(message, category, item_index):
     items = catalog[category]

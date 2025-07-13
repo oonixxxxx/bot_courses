@@ -1,5 +1,5 @@
 from aiogram.types import CallbackQuery
-from keyboards import create_categories_keyboard
+from keyboard import create_categories_keyboard
 
 async def show_categories(callback_query: CallbackQuery):
     await callback_query.message.edit_text(

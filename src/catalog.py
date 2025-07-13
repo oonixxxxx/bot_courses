@@ -37,3 +37,5 @@ catalog_of_courses = {
         'current_index': 0
     }
 }
+
+current_category = None

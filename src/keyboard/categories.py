@@ -1,5 +1,5 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from catalog import catalog
+from catalog import catalog_of_courses as catalog
 
 def create_categories_keyboard():
     buttons = []

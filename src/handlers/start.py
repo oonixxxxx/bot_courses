@@ -1,6 +1,6 @@
 from aiogram.filters import Command
 from aiogram.types import Message
-from internet_shop.keyboards import create_main_keyboard
+from keyboard import create_main_keyboard
 
 async def send_welcome(message: Message):
     await message.answer(
